@@ -68,7 +68,7 @@ function App() {
     formData.append("image", blob);
 
     try {
-      const res = await fetch("http://127.0.0.1:5000/recognize", {
+      const res = await fetch("https://ruthfully-tendinous-tula.ngrok-free.dev/recognize", {
         method: "POST",
         body: formData,
       });
