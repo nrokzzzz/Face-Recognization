@@ -22,7 +22,7 @@ function App() {
 
     faceDetection.setOptions({
       model: "short",
-      minDetectionConfidence: 0.8,
+      minDetectionConfidence: 0.9,
     });
 
     faceDetection.onResults(async (results) => {
