@@ -89,7 +89,7 @@ function App() {
     setTimeout(() => {
       backendLockRef.current = false;
       setStatus("🟢 Detecting faces");
-    }, 2500);
+    }, 500);
   };
 
   return (
