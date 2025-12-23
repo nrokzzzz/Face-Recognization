@@ -123,7 +123,7 @@ function App() {
                 fontWeight: "bold",
               }}
             >
-              {serverResponse.name}
+              {serverResponse.roll}
             </span>
           </p>
 
