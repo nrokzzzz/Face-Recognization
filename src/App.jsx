@@ -68,7 +68,7 @@ function App() {
     formData.append("image", blob);
 
     try {
-      const res = await fetch("https://ruthfully-tendinous-tula.ngrok-free.dev/recognize", {
+      const res = await fetch("https://face-recog-api-18427114316.asia-south1.run.app/recognize", {
         method: "POST",
         body: formData,
       });
