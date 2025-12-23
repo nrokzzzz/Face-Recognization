@@ -119,7 +119,7 @@ function App() {
             <span
               style={{
                 color:
-                  serverResponse.name === "Unknown" ? "red" : "green",
+                  serverResponse.roll === "Unknown" ? "red" : "green",
                 fontWeight: "bold",
               }}
             >
